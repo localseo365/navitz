@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-16 relative z-10">
         <div className="max-w-3xl mx-auto text-center animate-fade-in">
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-            Expertos en Vaciado y Limpieza de Naves Industriales en Barcelona
+            Vaciado y Limpieza de Naves Industriales en Barcelona | NAVITZ
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-gray-200 mb-8">
             Servicio profesional de vaciado, limpieza y gestión de residuos industriales. Más de 10 años de experiencia garantizando resultados excepcionales en toda el área metropolitana de Barcelona.
