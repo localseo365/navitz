@@ -2,6 +2,9 @@ import { Building, MapPin } from "lucide-react";
 import { Button } from "./ui/button";
 
 const Hero = () => {
+  const phoneNumber = "34633759649";
+  const whatsappUrl = `https://wa.me/${phoneNumber}`;
+
   return (
     <div 
       className="min-h-[80vh] flex items-center bg-cover bg-center bg-no-repeat relative"
@@ -29,9 +32,16 @@ const Hero = () => {
               <span>Barcelona y área metropolitana</span>
             </div>
           </div>
-          <Button size="lg" className="bg-primary hover:bg-primary/90 w-full sm:w-auto">
-            Solicitar Presupuesto Gratuito
-          </Button>
+          <a 
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
+          >
+            <Button size="lg" className="bg-primary hover:bg-primary/90 w-full sm:w-auto">
+              Solicitar Presupuesto Gratuito
+            </Button>
+          </a>
         </div>
       </div>
     </div>

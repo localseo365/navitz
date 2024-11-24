@@ -6,6 +6,9 @@ import { toast } from "./ui/use-toast";
 const ContactForm = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    const phoneNumber = "34633759649";
+    const whatsappUrl = `https://wa.me/${phoneNumber}`;
+    window.open(whatsappUrl, '_blank');
     toast({
       title: "Formulario enviado",
       description: "Nos pondremos en contacto contigo lo antes posible.",

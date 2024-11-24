@@ -13,7 +13,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Contacto</h3>
             <p className="text-sm text-gray-300">
               Email: info@navitz.com<br />
-              Teléfono: 900 123 456<br />
+              Teléfono: 633 75 96 49<br />
               Barcelona, España
             </p>
           </div>
