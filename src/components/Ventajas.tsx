@@ -4,18 +4,18 @@ const Ventajas = () => {
   const advantages = [
     {
       icon: <Clock className="w-10 h-10 sm:w-12 sm:h-12 text-primary mb-4" />,
-      title: "Rápida Respuesta",
-      description: "Atendemos tu solicitud en menos de 24 horas para garantizar un servicio ágil y eficiente.",
+      title: "Respuesta Inmediata",
+      description: "Servicio disponible 24/7 con respuesta en menos de 2 horas. Nos adaptamos a sus necesidades y horarios para minimizar el impacto en su actividad empresarial.",
     },
     {
       icon: <PiggyBank className="w-10 h-10 sm:w-12 sm:h-12 text-primary mb-4" />,
       title: "Precios Competitivos",
-      description: "Ofrecemos tarifas transparentes y ajustadas al mercado sin comprometer la calidad.",
+      description: "Presupuestos transparentes y ajustados al mercado, sin costes ocultos. Ofrecemos la mejor relación calidad-precio en servicios de vaciado y limpieza industrial en Barcelona.",
     },
     {
       icon: <Leaf className="w-10 h-10 sm:w-12 sm:h-12 text-primary mb-4" />,
       title: "Compromiso Ambiental",
-      description: "Implementamos prácticas sostenibles en todos nuestros servicios para proteger el medio ambiente.",
+      description: "Gestión sostenible de residuos y uso de productos ecológicos certificados. Cumplimos con todas las normativas medioambientales vigentes y proporcionamos certificados de gestión.",
     },
   ];
 
@@ -23,7 +23,7 @@ const Ventajas = () => {
     <section className="py-16 sm:py-20 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8 sm:mb-12">
-          Ventajas de Contratarnos
+          Ventajas de Contratar Nuestros Servicios
         </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {advantages.map((advantage, index) => (

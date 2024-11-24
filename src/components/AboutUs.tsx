@@ -11,7 +11,10 @@ const AboutUs = () => {
               Sobre Nosotros
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed">
-              NAVITZ es una empresa local de Barcelona con más de 10 años de experiencia en vaciado y limpieza de naves industriales. Nuestro compromiso es ofrecer un servicio eficiente, rápido y ecológico.
+              NAVITZ es una empresa líder en Barcelona especializada en servicios de vaciado y limpieza de naves industriales. Con más de una década de experiencia, nos hemos consolidado como referentes en el sector industrial, ofreciendo soluciones integrales y sostenibles para empresas de todos los tamaños.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Nuestro equipo altamente cualificado utiliza las técnicas más avanzadas y maquinaria especializada para garantizar resultados excepcionales en cada proyecto. Nos distinguimos por nuestra capacidad de adaptación, eficiencia y compromiso con el medio ambiente.
             </p>
             <div className="flex gap-4">
               <div className="text-center">
@@ -32,7 +35,7 @@ const AboutUs = () => {
           <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl animate-fade-in">
             <img
               src="https://images.unsplash.com/photo-1556761175-b413da4baf72"
-              alt="Equipo NAVITZ"
+              alt="Equipo NAVITZ trabajando en limpieza industrial"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>

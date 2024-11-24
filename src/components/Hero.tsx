@@ -17,15 +17,15 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-16 relative z-10">
         <div className="max-w-3xl mx-auto text-center animate-fade-in">
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-            Servicios Profesionales de Vaciado y Limpieza Industrial
+            Expertos en Vaciado y Limpieza de Naves Industriales en Barcelona
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-gray-200 mb-8">
-            Expertos en vaciado y limpieza de naves industriales en Barcelona
+            Servicio profesional de vaciado, limpieza y gestión de residuos industriales. Más de 10 años de experiencia garantizando resultados excepcionales en toda el área metropolitana de Barcelona.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
             <div className="flex items-center gap-2 text-white">
               <Building className="w-5 h-5" />
-              <span>Servicio 24/7</span>
+              <span>Servicio 24/7 - 365 días</span>
             </div>
             <div className="flex items-center gap-2 text-white">
               <MapPin className="w-5 h-5" />
