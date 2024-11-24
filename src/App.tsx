@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import WhatsAppButton from "./components/WhatsAppButton";
 import ScrollToTopButton from "./components/ScrollToTopButton";
+import CookieBanner from "./components/CookieBanner";
 import Index from "./pages/Index";
 
 const queryClient = new QueryClient();
@@ -20,6 +21,7 @@ const App = () => (
         </Routes>
         <WhatsAppButton />
         <ScrollToTopButton />
+        <CookieBanner />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
